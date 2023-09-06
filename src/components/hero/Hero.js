@@ -51,7 +51,7 @@ const Hero = ({ movies }) => {
                       /> </div>
                     </Link>
 
-                    <div className="movie-review-button-container">
+                    <div className="movie-review-button-container mt-3">
                       <Button variant="info" onClick={ () => reviews(movie.imdbId) }>Reviews </Button>
                     </div>
                   </div>

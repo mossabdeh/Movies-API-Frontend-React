@@ -11,7 +11,7 @@ const Hero = ({ movies }) => {
     <div className="movie-carousel-container">
       <Carousel>
         {movies && movies.map((movie) => (
-          <Paper key={movie.id}>
+          <Paper key={movie.imdbId}>
             <div className="movie-card-container">
               <div className="movie-card" style={{"--img": `url(${movie.backdrops[0]})`}}>
                 <div className="movie-detail">
@@ -19,7 +19,21 @@ const Hero = ({ movies }) => {
                     <img src={movie.poster} alt="" />
                   </div>
                   <div className="movie-title">
-                    <h4>{movie.title}</h4>
+                    
+                    <div className="movie-title-header">
+                    <h3>{movie.title}</h3>
+                    </div>
+                    <p> Release Date : ({movie.releaseDate})</p> {/* to display genre liste */}
+                    <p> Category : {movie.genres.map((genre, index) => (
+                     <span key={index} className="genre">
+                    {index !== 0 && <span className="dot"> • </span>}
+                      {genre}
+                     </span> ))}</p>
+                    
+                          
+                                           
+                    
+                    
                   </div>
                   <div className="movies-button-container">
                     <Link to={`/Trailer/${movie.trailerLink.substring(movie.trailerLink.length - 11)}`}>

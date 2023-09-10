@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Apps looks Like : 
+![emeraldMovies 2](https://github.com/mossabdeh/Movies-API-Frontend-React/assets/79877072/dae86044-6aa3-42cf-83a6-fb218df407d0)
+![emerladMovies 1](https://github.com/mossabdeh/Movies-API-Frontend-React/assets/79877072/aa274f5b-e320-48f1-a68d-7095733d2603)
+![emeraldMovies 3](https://github.com/mossabdeh/Movies-API-Frontend-React/assets/79877072/53c9ee12-2ae0-45f3-abd6-c4c491d9666c)
